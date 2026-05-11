@@ -95,6 +95,12 @@
       "name": "manoti",
       "image": "./images/manoti.jpg",
       "price": 45.99
+    },
+    {
+      "id": "c5a3",
+      "name": "samson",
+      "image": "./images/samson.jpg",
+      "price": 35.07
     }
   ]
 }

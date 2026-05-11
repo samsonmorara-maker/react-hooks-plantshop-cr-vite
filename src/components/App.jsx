@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "./Header";
 import PlantPage from "./PlantPage";
-import useState from "react";
+import { useState } from "react";
 function App() {
   const [plants, setPlants] = useState([]);
 useEffect(() => {

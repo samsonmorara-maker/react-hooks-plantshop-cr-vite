@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function NewPlantForm() {
+function NewPlantForm({ onAddPlant }) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [price, setPrice] = useState(""); 
@@ -26,10 +26,7 @@ const handleSubmit = (e) => {
     body: JSON.stringify(newPlant),
   })
     .then((response) => response.json())
-    .then((data) => {
-      console.log("New plant added:", data);
-      // Optionally, you can update the plants state in App component here
-    })
+    .then((data) => onAddPlant(data))
     .catch((error) => {
       console.error("Error adding plant:", error);
     });
@@ -37,13 +34,14 @@ const handleSubmit = (e) => {
   return (
     <div className="new-plant-form">
       <h2>New Plant</h2>
-      <form>
-        <input type="text" 
+      <form onSubmit={handleSubmit}>
+        <input value={name} onChange={(e) => setName(e.target.value)} type="text" 
         name="name" 
         placeholder="Plant name" />
-        <input type="text" name="image" placeholder="Image URL" />
-        <input type="number" name="price" step="0.01" placeholder="Price" />
-        <button type="submit">Add Plant</button>
+        <input value={image} onChange={(e) => setImage(e.target.value)} type="text" name="image" placeholder="Image URL" />
+        <input value={price} onChange={(e) => setPrice(e.target.value)} 
+        type="number" name="price" step="0.01" placeholder="Price" />
+        <button type="submit" onClick={handleSubmit}>Add Plant</button>
       </form>
     </div>
   );

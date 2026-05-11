@@ -18,12 +18,14 @@ useEffect(() => {
   fetchPlants();  
 }, []);
 
-
+function handleAddPlant(newPlant) {
+  setPlants([...plants, newPlant]);
+} 
 
   return (
     <div className="app">
       <Header />
-      <PlantPage plants={plants} />
+      <PlantPage plants={plants} handleAddPlant={handleAddPlant} />
     </div>
   );
 }

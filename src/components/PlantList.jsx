@@ -1,5 +1,6 @@
 import React from "react";
 import PlantCard from "./PlantCard";
+import { useState } from "react";
 
 function PlantList() {
   return (

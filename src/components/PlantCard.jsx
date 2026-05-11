@@ -1,6 +1,8 @@
 import React from "react";
+import { useState } from "react";
 
 function PlantCard() {
+
   return (
     <li className="card" data-testid="plant-item">
       <img src={"https://via.placeholder.com/400"} alt={"plant name"} />

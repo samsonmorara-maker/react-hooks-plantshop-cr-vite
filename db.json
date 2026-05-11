@@ -1,103 +1,103 @@
 {
   "plants": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Aloe",
       "image": "./images/aloe.jpg",
       "price": 15.99
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "ZZ Plant",
       "image": "./images/zz-plant.jpg",
       "price": 25.98
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
       "price": 5.99
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Pothos",
       "image": "./images/pothos.jpg",
       "price": 12.11
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Jade",
       "image": "./images/jade.jpg",
       "price": 10.37
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
       "price": 25.99
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
     },
     {
-      "id": "4d3f",
+      "id": 8,
       "name": "manoti",
       "image": "",
       "price": 45.99
     },
     {
-      "id": "7129",
+      "id": 9,
       "name": "manoti",
       "image": "",
       "price": 45.99
     },
     {
-      "id": "640f",
+      "id": 10,
       "name": "manoti",
       "image": "",
       "price": 45.99
     },
     {
-      "id": "b262",
+      "id": 11,
       "name": "manoti",
       "image": "",
       "price": 45.99
     },
     {
-      "id": "a2b9",
+      "id": 12,
       "name": "manoti",
       "image": "./images/manoti.jpg",
       "price": 45.99
     },
     {
-      "id": "e57a",
+      "id": 13,
       "name": "manoti",
       "image": "./images/manoti.jpg",
       "price": 45.99
     },
     {
-      "id": "4f39",
+      "id": 14,
       "name": "manoti",
       "image": "./images/manoti.jpg",
       "price": 45.99
     },
     {
-      "id": "3661",
+      "id": 15,
       "name": "manoti",
       "image": "./images/manoti.jpg",
       "price": 45.99
     },
     {
-      "id": "29f5",
+      "id": 16,
       "name": "manoti",
       "image": "./images/manoti.jpg",
       "price": 45.99
     },
     {
-      "id": "c5a3",
+      "id": 17,
       "name": "samson",
       "image": "./images/samson.jpg",
       "price": 35.07
